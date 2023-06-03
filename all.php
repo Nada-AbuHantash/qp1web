@@ -335,7 +335,7 @@ $conn= mysqli_connect("localhost", "root", "", "gp01");
 
     $connect = mysqli_connect("localhost", "root", "", "gp01");
 
-    $query = "select * from delivery where flag_req=1 ";
+    $query = "select * from delivery  ";
     $res = mysqli_query($connect, $query);
     $a=1;
 
